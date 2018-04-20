@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #555;
+    font-family: 'Open Sans', 'Nunito Sans', sans-serif;
+}
+
+div.btn a {
+   color: white;  
+   text-decoration: none;
+}
+
+
+/* header text css */
+
+#servicesHeader {
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+/* img gallery css */
+.mainContainer {
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+.mainContainer img {
+    width: 100%;
+}
+
+.caption {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    border-bottom: 1px solid #C5C5C5;
+}
+
+main .row img {
+    height: 300px !important;
+}
+
+.tz-gallery {
+    padding: 10px 20px 10px 20px;
+}
+
+.tz-gallery h2 {
+    padding: 10px 0 20px 0;
+}
+
+.mainFooter {
+    text-align: center;
+    padding: 10px;
+    line-height: 4em;
+}
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+  .text {
+    width: 700px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+  .footer-lower .col-md-8,
+  .footer-lower .col-md-4 {
+    width: auto;
+    display: inline-block;
+  }
+}

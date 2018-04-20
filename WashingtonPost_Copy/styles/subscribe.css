@@ -1,0 +1,173 @@
+﻿@charset "utf-8";
+
+/*
+  CSS for subscribe.html Web page
+  Script date: Oct 16, 2017
+  Developed by: Jian Zhao
+*/
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height:20px;
+    margin:0;
+    padding-top:10px;
+    padding-left:100px;
+}
+
+header p {
+    color:#000;
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+}
+
+#mainarea {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    padding-top: 60px;
+    text-align: center;
+    background-image: url("../images/newbanner.png");
+}
+
+#mainarea h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+#content {
+    width: 50%;
+    margin: 200px auto 20px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#content > p {
+    margin:0;
+    height:30px;
+    background-color:#000;
+    padding-top:10px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+}
+
+#subTitle {
+    margin: 80px auto 10px;
+    height: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+}
+
+#listTitle p {
+    width: 95%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #8bc34a;
+    padding-top:15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    border-radius: 3px;
+    font-size:16px;
+}
+
+#list ul {
+    list-style:none;
+    text-align:left;
+}
+
+#list ul li {
+    line-height:40px;
+    padding-left:25px;
+    background:url("../images/list-ico.png") no-repeat -10px center;
+}
+
+#price-1 {
+    width:97%;
+    margin: 100px auto 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+#price-1 p:first-child {
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:0;
+}
+
+#price-1 p:nth-child(2) {
+    margin:0;
+    font-size:14px;
+}
+
+#price-2 {
+    margin: 50px auto 20px;
+}
+
+.delPrice {
+    text-decoration-line:line-through;
+}
+
+.curPrice {
+    font-weight:bold;
+}
+
+
+#content div a, a:hover, a:link {
+    text-decoration:none;
+    text-align: center;
+    color:#fff;
+}
+
+#seperte {
+    width: 80%;
+    margin: 50px auto 0;
+    border-top: 1px solid #eeeeee;
+}
+
+#print {
+    width: 60%;
+    height:280px;
+    margin: 0 auto 20px;
+    border: 1px solid #eeeeee;
+    border-radius:3px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+#print > p {
+        margin: 0;
+        height: 30px;
+        background-color: #000;
+        padding-top: 10px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+}
+
+#picPrint {
+    width:30%;
+    float:left;
+    display:inline-block;
+}
+
+#textPrint {
+    width:60%;
+    padding:20px;
+    display: inline-block;
+    float:right;
+    text-align:left;
+    line-height:20px;
+}

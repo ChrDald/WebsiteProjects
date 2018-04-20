@@ -1,0 +1,46 @@
+1- Type of website:
+
+The website is a news website, or rather a recreation of a news site (the washington post)
+
+2- Purpose of the website
+
+The purpose is simply to apply the CSS knowledge we've learned to recreate the styling of a
+major website, using our own methods and creativity.
+
+3- The objective of the site
+
+To create a 6 page website that focuses entirely on the individual page's styles.
+
+4- What do you want the Web site to accomplish? What results do you want to see? 
+
+We want the website to recreate the appearance of a multi million dollar website, at least in terms of styling,
+using what we learned in our 2 or 3 weeks of CSS courses. 
+
+5- What information do we need?
+
+Since we are focusing mainly on the styling, we simply need to see a few different pages the original site uses.
+The text and media content is sourced from the original site. 
+
+6- What opportunity, problem, or issue is your site addressing
+
+simply an opportunity to apply what we've learned in this past course.
+
+7- Who is the intended audience? Will the audience consist of potential customers, current customers, or employees of a particular company or industry?
+
+If we are legally allowed to use the site as a portfolio project, the potential audience could be future employers or customers.
+
+8- List the working title of each page on your Web site.  
+
+The Washington Post Clone			index				
+The Washington Post Clone			article				
+The Washington Post Clone | Advertise		advertise			
+The Washington Post Clone | Careers		careers				
+The Washington Post Clone | Sign in		sign in page			
+The Washington Post Clone | Subscribe		subscribe
+
+9- List where you will obtain the content (facts, text, graphics, sounds, and video) for the Web pages you listed above. 
+
+Most of the content comes from thewashingtonpost.com
+Some embeded videos are from youtube
+Some images are taken from google and various sources which we hope we are free to use?
+We will use icons from http://fontawesome.io/

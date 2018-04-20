@@ -1,0 +1,102 @@
+/* consultation.css 
+    Created by: Jian Zhao
+    Script date: December 13, 2017
+*/
+
+/* overwritting header.css */
+
+
+#headerImg {
+    opacity: initial;
+}
+/**/
+#container{
+    width: 60%;
+    margin: 50px auto;
+}
+
+#title{
+    text-align:center;
+}
+
+.ma {
+    margin: 50px 0 50px 0;
+}
+
+.img-responsive {
+    display: inline-block;
+    width: 100%;
+    margin:0 auto;
+    height: auto;
+}
+
+.pic-hover.hover-scale img {
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    outline: none;
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.pic-hover {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic-hover:hover .bg-overlay {
+    background: rgba(0,0,0,.5);
+}
+
+.pic-hover:hover{
+    opacity: 1;
+}
+
+.pic-hover.hover-scale:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+  .text {
+    width: 700px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+  .footer-lower .col-md-8,
+  .footer-lower .col-md-4 {
+    width: auto;
+    display: inline-block;
+  }
+}

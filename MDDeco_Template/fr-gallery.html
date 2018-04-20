@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+        gallery.html
+        Created by: Jian Zhao
+        Script date: December 14, 2017
+    -->
+    <title>MD Deco | Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="In business for over 15 years, and with countless contracts completed, virtually any project you have in mind can be entrusted to the experts at MD.">
+    <meta name="keywords" content="Residential Renovations, Commercial Renovations, Exterior Remodelling">
+    <!-- bootstrap link below (scripts before closing body tag) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" />
+    <!-- stylesheets -->
+    <link type="text/css" rel="stylesheet" href="styles/header.css" />
+    <link type="text/css" rel="stylesheet" href="styles/footer.css" />
+    <link type="text/css" rel="stylesheet" href="styles/gallery.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="scripts/header.js"></script>
+</head>
+<body>
+    <header>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="topNav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="fr-index.html">MD Renovations</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="fr-index.html" class="nav-link">Accueil</a></li>
+                        <li class="nav-item dropdown">
+                            <!-- make this a dropdowm btn with links to residential/commercial/exterior -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="fr-services.html">Profil</a>
+                                <a class="dropdown-item" href="fr-residential.html">Residentiel</a>
+                                <a class="dropdown-item" href="fr-commercial.html">Commercial</a>
+                                <a class="dropdown-item" href="fr-exterior.html">Extérieur</a>
+                            </div>
+                        </li>
+                        <li class="active"><a href="fr-gallery.html" class="nav-link">Galleries</a></li>
+                        <li class="nav-item"><a href="fr-about.html" class="nav-link">À Propos</a></li>
+                        <li class="nav-item"><a href="fr-contact.html" class="nav-link">Contacter</a></li>
+                        <li class="nav-item"><a href="fr-consultation.html" class="nav-link">Consultations</a></li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div id="frEnLinks" style="margin-right:10px">
+                            <span style="color:#4A79DC"><a href="#">fr </a>|</span><span> <a href="gallery.html">en</a></span>  <!-- french / english links -->
+                        </div>
+
+                        <input class="form-control mr-sm-2" id="txtSearch" type="text" placeholder="Search" />
+                        <!--button class="btn my-2 my-sm-0" id="btnSearch" type="submit">Search</button-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- end of top nav bar -->
+        <!-- main image at top of site -->
+        <div class="container-fluid" id="topImgContainer">
+            <!-- bootstrap responsive img (header background image )-->
+            <img class="img-responsive" src="images/placeholder.jpg" alt="Placeholder" id="headerImg" />
+        </div>
+        <!-- end of main image at top of site -->
+    </header>
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="index.html">Acceuil</a>
+        <span class="breadcrumb-item active">Gallerie</span>
+    </nav>
+
+    <main>
+        <div id="container" class="container gallery-container">
+            <div id="title" class=" text-center">
+                <h1><span class="color_h1">Gallerie</span></h1>
+            </div>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/home_landscape.jpg">
+                                <img src="images/gallery/home_landscape.jpg" alt="image of Home Landscape" title="image of Home Landscape" />
+                            </a>
+                            <div class="caption">
+                                <h3>Aménagement paysager</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/patio.jpg">
+                                <img src="images/gallery/patio.jpg" alt="image of Patio" title="image of Patio" />
+                            </a>
+                            <div class="caption">
+                                <h3>Patios</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/home_remodeling.jpg">
+                                <img src="images/gallery/home_remodeling.jpg" alt="image of Home Remodeling" title="image of Home Remodeling" />
+                            </a>
+                            <div class="caption">
+                                <h3>Rénovation complète</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/kitchen.jpg">
+                                <img src="images/gallery/kitchen.jpg" alt="image of Kitchen" title="image of Kitchen" />
+                            </a>
+                            <div class="caption">
+                                <h3>Cuisines</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/exterior_remodeling.jpg">
+                                <img src="images/gallery/exterior_remodeling.jpg" alt="image of Exterior Remodeling" title="image of Exterior Remodeling" />
+                            </a>
+                            <div class="caption">
+                                <h3>Rénovation extérieure complète</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="images/gallery/bathroom.jpg">
+                                <img src="images/gallery/bathroom.jpg" alt="image of bathroom" title="image of bathroom" />
+                            </a>
+                            <div class="caption">
+                                <h3>Salles de bains</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row footer-upper">
+                    <div class="col-md-3">
+                        <p>Réparation de fissures</p>
+                        <p>Ajustement de plafonds</p>
+                        <p>Encadrement</p>
+                        <p>Isolation</p>
+                        <p>Plomberie</p>
+                        <p>Isolation avec jets</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Démolition</p>
+                        <p>Cloisons</p>
+                        <p>Peinture</p>
+                        <p>Taping</p>
+                        <p>Moulures</p>
+                        <p>Bois-francs</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>O'gees</p>
+                        <p>Tuileries</p>
+                        <p>Backsplash</p>
+                        <p>Portes</p>
+                        <p>Fenètres</p>
+                        <p>Lavabos</p>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- <img src="images/logo.jpg" alt="logo" title="logo" id="logo" /> -->
+                        <h4>&nbsp;</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row footer-lower">
+                    <div class="col-md-8">
+                        &copy; <a href="#">MD Renovations</a> | (514)-567-6789<br>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/googleplus-icon.png" alt="google plus" width="25" /></a>
+                        <a href="#"><img src="images/tumblr-icon.png" alt="tumblr" width="25" /></a>
+                        <a href="#"><img src="images/youtube-icon.png" alt="youtube" width="25" /></a>
+                        <a href="#"><img src="images/bebo-icon.png" alt="bebo" width="25" /></a>
+                        <a href="#"><img src="images/xing-icon.png" alt="xing" width="25" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="scripts/indexScripts.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+</body>
+</html>

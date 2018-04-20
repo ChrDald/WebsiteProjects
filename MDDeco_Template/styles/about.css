@@ -1,0 +1,128 @@
+/* about.css */
+
+/* General styles */
+body {
+  background-color: #fdfdfd;
+  color: #555;
+  font-family: 'Open Sans', 'Nunito Sans', sans-serif;
+}
+
+div.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* header section */
+
+header {
+    position: relative;
+}
+
+header img {
+    /*margin-bottom: 4em;*/
+    max-height: 520px;
+    opacity: 0.85;
+    max-width: 100%;
+}
+
+div.carousel-caption {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+header h3 {
+    z-index: 1;
+    font-size: 225%;
+    min-width: 323px;
+    color: #1F3447;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(240,255,255,0.8);
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 32%;
+}
+
+/**/
+ul li {
+  list-style: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/* main section */
+main {
+  margin: 2em auto;
+}
+
+.col-md-8 p {
+  line-height: 2.2em;
+  font-size: 18px;
+  letter-spacing: .7px;
+  margin-right: 2em;
+}
+
+.testimonials {
+  line-height: 2em;
+  font-size: 16px;
+  letter-spacing: .6px;
+}
+
+.testimonials h2 {
+  border-bottom: 1px dotted #555;
+  padding-bottom: 8px;
+  margin-bottom: 1em;
+}
+
+.testimonials a:hover {
+  color: #666;
+}
+
+.certifiedContainer {
+    margin-top: 10em;
+}
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .carousel-item img {
+    height: 520px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+  .text {
+    width: 700px !important;
+  }
+  .carousel-item img {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    height: 320px;
+  }
+}

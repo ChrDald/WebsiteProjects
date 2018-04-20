@@ -1,0 +1,151 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #555;
+    font-family: 'Open Sans', 'Nunito Sans', sans-serif;
+}
+
+.img-responsive {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+main, .headerContainer {
+    background-color: inherit;
+}
+
+/* header css */
+.headerContainer {
+    position: relative;
+    margin: 0 auto auto auto;
+    padding: 0;
+    padding-bottom: 0px;
+}
+
+.headerContainer img {
+    opacity: 0.75;
+    max-width: 100%;
+}
+
+.headerContainer h1 {
+    z-index: 1;
+    display: inline-block;
+    font-size: 300%;
+    color: white;
+    background-color: rgba(76,91,97, 1);    
+    padding: 0 8px 0 8px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* main section css */
+.mainHeaderContainer {
+    text-align: center;
+    width: 100%;
+}
+
+.tz-gallery {
+    padding: 10px 0 10px 0;
+}
+
+.img-fluid {
+    height: 300px !important;
+    width: 100%;
+}
+
+div.btn {
+    display: block;
+    margin: 0 auto 1em auto;
+    width: 20%;
+}
+
+.contactSection {
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contactSection h2 {
+    padding: 10px;
+}
+
+.contactSection #contactBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.row {
+    margin: 10px;
+}
+
+#textareaLabel {
+    margin: 0 0 10px 0;
+    padding-left: 15px;
+}
+
+.radioSection {
+    padding: 15px;
+    border-radius: 3px;
+    z-index: 1;
+    background-color: white;
+}
+
+div.row .btn {
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+  .text {
+    width: 700px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+  .footer-lower .col-md-8,
+  .footer-lower .col-md-4 {
+    width: auto;
+    display: inline-block;
+  }
+}

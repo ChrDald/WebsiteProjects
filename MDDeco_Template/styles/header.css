@@ -1,0 +1,50 @@
+/* header.css */
+
+#topNav {
+    margin: 0 auto;
+    border-radius: 0;
+    font-size: 120%;
+    opacity: 0.85;
+}
+
+#topImgContainer {
+    margin: 0;
+    padding: 0;
+}
+
+#topNav div.frEnLinks span a {
+    color: white !important;
+}
+
+/*#topNav a { 
+    color: #c5c5c5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#topNav li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}*/
+
+#headerImg {
+    width: 100%;
+    opacity: 0.75;
+}
+
+.highlight {
+    background-color: #fff34d;
+    -moz-border-radius: 5px; /* FF1+ */
+    -webkit-border-radius: 5px; /* Saf3-4 */
+    border-radius: 5px; /* Opera 10.5, IE 9, Saf5, Chrome */
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* FF3.5+ */
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* Saf3.0+, Chrome */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7); /* Opera 10.5+, IE 9.0 */
+}
+
+.highlight {
+    padding: 1px 4px;
+    margin: 0 -4px;
+}
+

@@ -1,0 +1,70 @@
+/* about.css */
+
+/* General styles */
+body {
+  background-color: #fdfdfd;
+  color: #555;
+  font-family: 'Open Sans', 'Nunito Sans', sans-serif;
+}
+
+/* header section */
+.headerContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer img {
+    width: 100%;
+}
+
+/* main section */
+main {
+  margin: 4em auto;
+}
+
+.text p {
+  line-height: 1.8em;
+  font-size: 18px;
+  letter-spacing: .7px;
+  margin-right: 2em;
+}
+
+.text p span {
+  font-weight: bold;
+}
+
+#map {
+   min-height: 300px;
+   width: 100%;
+   float: left;
+   clear: left;
+}
+
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+}

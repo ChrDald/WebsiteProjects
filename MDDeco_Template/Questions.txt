@@ -1,0 +1,64 @@
+Overall Goal – What is the primary message of this Web page? What is this organization trying to communicate? 
+
+The goal of the site is to advertise a renovation company and showcase it's work, and offer
+a way for future customers to reach it
+
+-------------------------------------------------------
+What is the purpose of the site? Why do you think this organization wants to share this information? 
+What do they have to gain?
+
+Same as above, the point is to advertise and create new business opportunities
+
+------------------------------------------------------- 
+Who is the intended audience? Will the audience consist of potential customers, current customers, 
+or employees of a particular company or industry?  Whom do you think this organization's message 
+is directed to? Who would want to know this information? Do any of the following factors relate 
+to your audience: age groups, social-economics, geography, gender, education, culture, etc.?
+
+The audience would be potential customers, maybe business competition keeping track of what
+their competition is up to, or just people looking for inspiration.
+Since the website is directed towards customers mainly, and since renovation is quite expensive,
+the audience would likely be in the age group of over 25-30 years of age, relatively well-off
+(usually home-owners with funds to spare on renovating), living in the area, and statistically speaking
+people in this demographic have a fair chance of being properly educated.
+
+------------------------------------------------------- 
+What are the objectives of the site? To advertise a company or organization, provide 
+information to customers; provide a service, or process orders?
+
+All the above except process orders, that would be replaced by booking consultations
+
+------------------------------------------------------- 
+What do you want the web site to accomplish? What results do you want to see? 
+
+To create a template that can easily be modified to be a legitimate website for a company
+
+------------------------------------------------------- 
+What information do you need?  
+
+For the template only basic information is required, such as which services can be offered
+In order to have it be legitimate I would need actual content, such as pictures, testimonials, 
+certifications, which I do not currently possess.
+
+------------------------------------------------------- 
+What opportunity, problem, or issue is your site addressing?
+
+The opportunity is the use of the internet to promote a business
+
+------------------------------------------------------- 
+List the working title of each page on your Web site. 
+
+MD Deco | Home 		MD Deco | Residential
+MD Deco | Exterior	MD Deco | Gallery
+MD Deco | Services	MD Deco | Commercial
+MD Deco | Contact	MD Deco | Consultation
+MD Deco | Testimonials	MD Deco | About
+
+------------------------------------------------------- 
+List where you will obtain the content (facts, text, graphics, sounds, and video) for the web pages you listed above
+
+For the template, all images will be borrowed from various pages on google images results
+Text content will also simply be placeholders
+
+All this content will be replaced with real content obtained from the company in question before 
+the site is deployed

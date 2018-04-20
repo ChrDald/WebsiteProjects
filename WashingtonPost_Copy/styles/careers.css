@@ -1,0 +1,187 @@
+/* reset/change conflicting css */
+
+h1,h2,h3 {
+	margin-bottom: initial;
+}
+
+body {
+	background-color: #F8F8F5;
+}
+
+.contentDiv .leftDiv iframe {
+	height: 314px;
+	width: 489px;
+	
+}
+
+/* styles for first (top) div */
+
+div.firstDiv {
+	padding: 8em 4em 2em 4em;
+	background-color: #2183AA;
+	width: 100%;
+}
+
+div.firstDiv h1 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	font-family: georgia;
+}
+
+div.contentDiv {
+	margin-top: 1em;
+	width: 95%;
+	text-align: center;
+	padding: 1em;
+	overflow: auto;
+	clear: both;
+	
+}
+
+div.contentDiv .leftDiv {
+	display: inline-block;
+	float: left;
+}
+
+div.contentDiv .leftDiv video {
+	height: 314px;
+	width: 489px;
+}
+
+div.contentDiv .rightDiv {
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+	
+	float: right;
+	width: 45%;
+	vertical-align: top;
+	
+}
+
+div.contentDiv .rightDiv .careersText-white {
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+
+div.contentDiv .rightDiv .careers-btn {
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+div.contentDiv .rightDiv .careers-btn a {
+	width: 25%;
+	color: white;
+	font-size: 22px;
+	background-color: #2972AC;
+	padding: 10px;
+}
+
+/* start of 2nd div */
+
+.secondDiv {
+	clear:both;
+	width: 100%;
+	background-color: white;
+	overflow: auto;
+	padding: 4em 10em 4em 10em;
+}
+
+.secondDiv h1 {
+	color: #A7A9AC;
+}
+
+.rightDiv {
+	float: right;
+}
+
+.rightDiv h2, p {
+	text-align: left;
+	margin: 1em;
+	color: #A7A9AC;
+}
+
+.rightDiv a {
+	color: #0F75C2;
+	font-size: 20px;
+}
+
+/* styles for 3rd div */
+
+.thirdDiv {
+	text-align: center;
+	background-image: url("../images/our-office.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+	padding: 16em 8em 16em 8em;
+}
+
+.thirdDiv figure {
+	width: 75%;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.thirdDiv figure {
+	font-size: 32px;
+	color: white;
+	text-align: justify;
+}
+
+.thirdDiv figure figcaption {
+	text-align: right;
+	font-size: 18px
+}
+
+/* styles for 4th div */
+
+div.fourthDiv {
+	background-color: #3A3A3C;
+	overflow: auto;
+	padding: 4em 5em 4em 5em;
+}
+
+div.fourthDiv h1 {
+	color: #A7A9AC;
+	font-size: 48px;
+	margin-bottom: 0.75em;
+}
+
+div.fourthDiv .leftDiv {
+	width: 45%;
+	float: left;
+}
+
+div.fourthDiv .leftDiv h3, .rightDiv h3 {
+	color: white;
+}
+
+div.fourthDiv .leftDiv p, .rightDiv p {
+	color: white;
+}
+
+div.fourthDiv .rightDiv {
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+	float: right;
+	width: 45%;
+	vertical-align: top;
+}
+
+div.fourthDiv .careers-btn {
+	text-align: left;
+	margin-top: 2.5em;
+}
+
+div.fourthDiv .careers-btn a {
+	width: 25%;
+	color: white;
+	font-size: 22px;
+	background-color: #2972AC;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+footer {
+	
+}

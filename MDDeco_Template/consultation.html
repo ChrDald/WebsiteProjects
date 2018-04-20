@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- 
+        consultation.html
+        Created by: Jian Zhao
+        Script date: December 13, 2017
+    -->
+    <title>consultation - MD Renovations</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="In business for over 15 years, and with countless contracts completed, virtually any project you have in mind can be entrusted to the experts at MD.">
+    <meta name="keywords" content="Residential Renovations, Commercial Renovations, Exterior Remodelling">
+    <!-- bootstrap link below (scripts before closing body tag) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <!-- stylesheets -->
+    <link type="text/css" rel="stylesheet" href="styles/header.css" />
+    <link type="text/css" rel="stylesheet" href="styles/footer.css" />
+    <link type="text/css" rel="stylesheet" href="styles/consultation.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="scripts/consultation.js"></script>
+    <script src="scripts/header.js"></script>
+</head>
+<body>
+    <header>
+        <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="topNav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">MD Renovations</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <!-- make this a dropdowm btn with links to residential/commercial/exterior -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="fr-services.html">Profil</a>
+                                <a class="dropdown-item" href="fr-residential.html">Residentiel</a>
+                                <a class="dropdown-item" href="fr-commercial.html">Commercial</a>
+                                <a class="dropdown-item" href="fr-exterior.html">Extérieur</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="fr-gallery.html" class="nav-link">Galleries</a></li>
+                        <li class="nav-item"><a href="fr-about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="fr-contact.html" class="nav-link">Contacter</a></li>
+                        <li class="active"><a href="fr-consultation.html" class="nav-link">Consultations</a></li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div id="frEnLinks" style="margin-right:10px">
+                            <span><a href="fr-consultation.html">fr</a> | </span>
+                            <span style="color:#4A79DC"><a href="#">en</a></span>  <!-- french / english links -->
+                        </div>
+                        
+                        <input class="form-control mr-sm-2" id="txtSearch" type="text" placeholder="Search" />
+                        <!--button class="btn my-2 my-sm-0" id="btnSearch" type="submit">Search</button-->
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- end of top nav bar -->
+        <!-- main image at top of site -->
+        <div class="container-fluid" id="topImgContainer">
+            <!-- bootstrap responsive img (header background image )-->
+            <img class="img-responsive" src="images/consultation.jpg" alt="consult us" id="headerImg" />
+        </div>
+        <!-- end of main image at top of site -->
+    </header>
+    <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="index.html">Home</a>
+        <span class="breadcrumb-item active">Consultation</span>
+    </nav>
+    <main>
+        <div id="container">
+            <div id="title">
+                <h1>FREE <span class="color_h1"> ESTIMATES & CONSULTATION</span></h1>
+                <p>* indicates required field</p>
+            </div>
+            <form id="frm_con" method="post" onsubmit="return checkInput();">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="fName">First Name*</label>
+                        <input type="text" class="form-control" id="fName" required />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lName">Last Name*</label>
+                        <input type="text" class="form-control" id="lName" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email address*</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="telnum">Phone Number(Ex. 514-234-5678)*</label>
+                        <input type="text" class="form-control" id="telnum" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" cols="8" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row footer-upper">
+                    <div class="col-md-3">
+                        <p>Basement crack injections</p>
+                        <p>Popcorn ceiling removal</p>
+                        <p>Framing</p>
+                        <p>Insulation</p>
+                        <p>Plumbing services</p>
+                        <p>Spray Foam Insulation</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Demolition</p>
+                        <p>Drywall installation</p>
+                        <p>Painting</p>
+                        <p>Taping</p>
+                        <p>Baseboard/casings</p>
+                        <p>Hardwood/laminate</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Crown moulding</p>
+                        <p>Tile installation</p>
+                        <p>Backsplash</p>
+                        <p>Doors</p>
+                        <p>Windows</p>
+                        <p>Sinks</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/logo.jpg" alt="logo" title="logo" id="logo" />
+                        <h4>&nbsp;</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row footer-lower">
+                    <div class="col-md-8">
+                        &copy; <a href="#">MD Renovations</a> | (514)-567-6789<br>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/googleplus-icon.png" alt="google plus" width="25" /></a>
+                        <a href="#"><img src="images/tumblr-icon.png" alt="tumblr" width="25" /></a>
+                        <a href="#"><img src="images/youtube-icon.png" alt="youtube" width="25" /></a>
+                        <a href="#"><img src="images/bebo-icon.png" alt="bebo" width="25" /></a>
+                        <a href="#"><img src="images/xing-icon.png" alt="xing" width="25" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/indexScripts.js"></script>
+</body>
+</html>

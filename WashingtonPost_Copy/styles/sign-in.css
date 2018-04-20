@@ -1,0 +1,96 @@
+﻿@charset "utf-8";
+
+/*
+  CSS for sign-in.html Web page
+  Script date: Oct 16, 2017
+  Developed by: Jian Zhao
+*/
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width:100%;  
+    height:60px;
+    margin:0;
+    padding-top:10px;
+    background-color:#000;
+    text-align:center;
+}
+
+header p {
+    color:#fff;
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+    font-style:italic;
+}
+
+#title {
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:26px;
+}
+
+#title h1 {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+#content {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+    font-size: 14px;
+}
+
+#content div{
+    margin:15px auto;
+    width:220px;
+    height:50px;
+    border-radius:8px;
+}
+
+#content div a {    
+    padding:5px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+#link-1 {
+    background-color: #000;
+}
+
+#link-2 {
+    background-color: #4363a2;
+}
+
+#link-3 {
+    background-color: #ff9900;
+}
+
+#content div a, a:hover, a:link {
+    text-decoration:none;
+    text-align: center;
+    color:#fff;
+}
+
+footer {
+    text-align:center;
+    font-size: 14px;
+}
+
+footer a, a:hover, a:link{
+    color:#4363a2;
+    text-decoration:underline;
+}

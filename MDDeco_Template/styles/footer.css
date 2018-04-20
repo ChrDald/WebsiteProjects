@@ -1,0 +1,36 @@
+/* footer.css */
+
+/* footer section */
+footer {
+    background-color: rgba(75,97,116, 1);
+    color: #e5e5e5;
+}
+
+footer>div:first-child {
+  border-bottom: 1px solid #eee;
+}
+
+.footer-upper, .footer-lower {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-upper p {
+    margin-top: 1rem;
+  line-height: 10px;
+  font-size: 14px
+}
+
+footer>div:last-child {
+  background-color: #1F3447;
+  height: 80px;
+}
+
+.footer-lower div:last-child {
+  text-align: right;
+}
+
+#logo {
+    border-radius: 10px;
+    width:90%;
+}

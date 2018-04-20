@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(52,66,77, 0.05);
+    color: #555;
+    font-family: 'Open Sans', 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    height: 10em;
+}
+
+#topImgContainer {
+    margin: 0;
+    padding: 0;
+}
+
+#headerImg {
+    width: 100%;
+    opacity: 0.75;
+}
+
+#aboutUsSection {
+    width: 100%;
+    margin: 30px auto 30px auto;
+    text-align: left;
+    padding: 5% 50% 5% 5%;
+    background-color: rgba(17,29,74, 0.9);
+    color: #c2cae8;
+    position: relative;
+}
+
+#aboutUsSection h1 {
+    line-height: 1.5em;
+    font-size: 300%;
+}
+
+#aboutUsSection p {
+    line-height: 1.5em;
+    font-size: 125%;
+}
+
+
+/* image gallery section */
+
+.caption {
+    bottom: initial;
+}
+
+.caption p {
+    color: white;
+    background-color: #2C423F;
+    padding: 10px;
+    font-size: 125%;
+    top: 50%;
+    transform: translateY(15%);
+}
+
+
+.thumbnail img {
+    height: 20em !important;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.imgGalleryContainer {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.imgGalleryContainer h1 {
+    color: #555555;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 30px;
+}
+
+.imgGalleryContainer h2 {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  #topNav {
+    font-size: 100%;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  form input.form-control {
+    width: 50% !important;
+    font-size: 14px;
+  }
+  .text {
+    width: 700px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  .col-md-5, .col-md-7 {
+    width: 100%;
+  }
+
+  .footer-lower .col-md-8,
+  .footer-lower .col-md-4 {
+    width: auto;
+    display: inline-block;
+  }
+}
+
+div.btn a {
+    color: white;
+    text-decoration: none;
+}

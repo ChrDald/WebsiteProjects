@@ -1,0 +1,638 @@
+@charset "utf-8";
+
+/*
+  CSS for article.html Web page
+  Script date: Oct 13, 2017
+  Developed by: Chris Daldalian, Jian Zhao, Thanh-Tung Pham;
+*/
+
+/* styles for the top nav bar */
+
+.navWrapper {
+    width: 100%;
+    background-color: #0A0A0A;
+    font-family: Helvetica;
+    font-size: 14px;
+    margin-bottom: 3em;
+    overflow: auto;
+}
+
+.topNav {
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+    width: 100%;
+}
+
+    .topNav ul {
+        list-style-type: none;
+    }
+
+.navLeftBtns {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: center;
+    padding-left: 1.5em;
+    float: left;
+}
+
+    .navLeftBtns + div {
+        display: inline-block;
+    }
+
+.topNav ul li {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+
+    .topNav ul li a {
+        display: block;
+        color: gainsboro;
+        text-decoration: none;
+    }
+
+        .topNav ul li a:hover {
+            color: white;
+        }
+
+.navRightBtns {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: center;
+    padding-right: 1.5em;
+    float: right;
+}
+
+.nav-btn-li {
+    background-color: rgb(68,68,68);
+    border: 1px solid rgb(68,68,68);
+    border-radius: 4px;
+    margin-left: 0.1em !important;
+    margin-right: 0.1em !important;
+}
+
+/* end of nav styles */
+
+/* styles for the header part, C.D */
+
+.topHeader {
+    width: 90%;
+    margin: 65px auto 0 auto;
+}
+
+.companyName {
+    font-family: Arial; /* embeded font here - 'Rye', cursive; */
+    text-align: center;
+}
+
+.headerContainer {
+    font-family: Georgia,serif;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid black;
+    padding-top: 2em;
+    padding-bottom: 0.4em;
+    overflow: auto;
+}
+
+.moto {
+    display: inline;
+    width: 25%;
+    vertical-align: middle;
+    font-style: italic;
+}
+
+.topDate {
+    float: left;
+    display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+.edition {
+    display: inline;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+/* styles for the article nav below the header */
+
+.redText {
+    color: red;
+}
+
+.articleList {
+    width: 100%;
+    margin: 0.5em auto;
+}
+
+    .articleList ul {
+        list-style-type: none;
+        padding: 0.5em;
+        margin: 0;
+    }
+
+        .articleList ul li {
+            display: inline-block;
+            padding: 0.5em;
+        }
+
+            .articleList ul li a {
+                display: block;
+                color: rgb(42, 42, 42);
+                text-decoration: none;
+            }
+
+                .articleList ul li a:hover {
+                    color: #3F9AD9;
+                }
+
+
+/* end of header styles */
+
+/* start of footer styles */
+
+/* styles for top part of the footer */
+
+footer.footer {
+    clear: both;
+    width: 100%;
+}
+
+.topFooter {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    position: relative;
+}
+
+.footer-left-btns-container {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 12.5%;
+    margin-left: 1em;
+    padding: 8px;
+    background-color: white;
+}
+
+.footer-btn {
+    display: inline;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-right: 4px;
+    border-right: 2px solid #dedede;
+    padding-right: 4px;
+}
+
+.footer-btn:last-child {
+    border:none;
+}
+
+.footerCopyright {
+}
+
+.footer-right-btns-container {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    font-size: 1.5em;
+    padding: 8px;
+    background-color: white;
+    margin-right: 1em;
+    position: absolute;
+    right: 0;
+    top: 12.5%;
+}
+
+
+/* styles for bottom part of the footer */
+
+table.footer-table {
+    text-align: left;
+    width: 80%;
+    margin: 2% auto;
+}
+
+.footer-table a {
+    text-decoration: none;
+}
+
+.footer-table th, td, a {
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+.footer-table a:hover {
+    color: #6ac;
+}
+
+/* TP is from here */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "FranklinITCProLight","Helvetica Neue Light","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+#upper-main {
+  width: 80%;
+  margin: 2em auto;
+}
+
+#upper-main header {
+  border-bottom: 1px solid #ccc;
+}
+
+#upper-main header a {
+  font-weight: bold;
+  color: #76f;
+}
+
+#upper-main header h1 {
+  font-size: 3em;
+  padding-bottom: 0.5em;
+  color: #4c4c4c;
+}
+
+div a:hover {
+  color: #6ac;
+}
+
+div a {
+  text-decoration: none;
+  color: #000;
+}
+
+section iframe {
+  width: 640px;
+  height: 360px;
+  border: none;
+}
+
+
+/* Styling section element */
+section {
+  width: 61.5%;
+  float: left;
+  margin: 1.5% 0;
+  padding-right: 2em;
+  border-right: 1px solid #ccc;
+}
+
+section figure {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+section figure figcaption {
+  font-size: 95%;
+  width: 95%;
+  margin: 0 auto;
+  opacity: 0.7;
+  text-align: left;
+}
+
+p.authors {
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+p.authors a {
+  color: #76f;
+}
+
+p.authors span {
+  font-weight: normal;
+  font-size: 80%;
+  opacity: 0.7;
+}
+
+p.authors::after {
+  content: url("../images/mail.png");
+  position: relative;
+  top: 4px;
+}
+
+.writting p {
+  line-height: 200%;
+  font-size: 110%;
+}
+
+div > em {
+  display: block;
+  margin-bottom: 2em;
+}
+
+div.comments {
+  padding: 0.5em 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 35%;
+  text-align: center;
+  float: left;
+  font-weight: bold;
+}
+
+div.comments a::before {
+  content: url("../images/comments.png");
+  position: relative;
+  top: 4px;
+}
+
+div.media {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: right;
+}
+
+div.media div {
+  width: 33.3%;
+  margin: 0.6em auto;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+div.media div:last-child {
+  border: none;
+}
+
+.email a img {
+  position: relative;
+  top: 4px;
+}
+
+
+/* Styling aside element */
+aside {
+  width: 35%;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+aside section {
+  width: 100%;
+  border-right: none;
+  padding-top: 1em;
+}
+
+aside section:first-child,
+aside section:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+aside iframe {
+  width: 360px;
+  height: 200px;
+  border: none;
+}
+
+div.title {
+  width: 35%;
+  font-weight: bold;
+  font-size: 95%;
+  margin-bottom: 1em;
+}
+
+.title hr {
+  width: 30%;
+  height: 4px;
+  background: #000;
+  margin-bottom: 8px;
+  border: none;
+}
+
+aside section figure {
+  text-align: center;
+}
+
+aside section figure figcaption {
+  text-align: left;
+  opacity: 0.5;
+  font-size: 80%;
+  padding-bottom: 1em;
+}
+
+aside .up-next {
+  /*border-bottom: 1px solid #ccc;*/
+}
+
+.up-next .title p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.up-next .content article {
+  overflow: auto;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.up-next .content img {
+  width: 35%;
+  float: left;
+}
+
+.up-next .content h3 {
+  width: 65%;
+  display: block;
+  float: right;
+  padding-left: 1em;
+}
+
+aside .most-read {
+  border-bottom: 1px solid #ccc;
+}
+
+.most-read div:last-child {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #ccc;
+}
+
+.most-read div ol {
+  padding-left: 2em;
+}
+
+.most-read div ol li {
+  margin: 1em 1em 0 0;
+  padding-bottom: 1em;
+  float: right;
+  border-bottom: 1px solid #ccc;
+}
+
+.most-read div ol li:last-child {
+  border: none;
+}
+
+.most-read div ol li img {
+  width: 20%;
+  float: right;
+}
+
+.most-read div ol li p {
+  width: 80%;
+  float: right;
+  padding-right: 1em;
+}
+
+.todays-paper {
+  position: relative;
+}
+
+.todays-paper div:last-child {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todays-paper div:last-child div {
+  width: 100%;
+  background: #fff;
+}
+
+.todays-paper div:last-child div p {
+  padding: 1em;
+  margin: 0 1em;
+}
+
+.todays-paper div:last-child div p:first-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.todays-paper div:last-child img {
+  position: absolute;
+  bottom: 0;
+  right: 1em;
+}
+
+.diversions div:last-child {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.diversions div:last-child p {
+  width: 49%;
+  display: inline-block;
+  padding: 1em 1em 0 1em;
+  font-size: 90%;
+}
+
+.diversions div:last-child p:last-child,
+.diversions div:last-child p:nth-last-child(2) {
+  margin-bottom: 1em;
+}
+
+.diversions div:last-child p:first-child::before {
+  content: url("../images/comic.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(2)::before {
+  content: url("../images/eggs.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(3)::before {
+  content: url("../images/crossword.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(4)::before {
+  content: url("../images/horoscopes.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(5)::before {
+  content: url("../images/mahjongg.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(6)::before {
+  content: url("../images/solitaire.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:nth-child(7)::before {
+  content: url("../images/sudoku.png");
+  position: relative;
+  top: 4px;
+}
+
+.diversions div:last-child p:last-child::before {
+  content: url("../images/tv.png");
+  position: relative;
+  top: 4px;
+}
+
+
+
+
+/* TP ends */
+
+
+/* Jian -> */
+#subCategory {
+  width: 90%;
+  height: 2160px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+
+#subCategory div {
+  width: 260px;
+  height: 700px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  float: left;
+}
+
+#subCategory div img {
+  width: 259px;
+  height: 150px;
+}
+
+#subCategory div h3, h4 {
+  margin: 20px;
+}
+
+#subCategory div h4:not(:last-child) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d5d5d5;
+}
+/* Jian <- */

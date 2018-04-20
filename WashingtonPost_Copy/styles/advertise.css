@@ -1,0 +1,158 @@
+body {
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+	background-color: white;
+}
+
+/* first div styles */
+
+div.advert-firstDiv {
+	height: 25em;
+	background-image: url('../images/night-city.jpg');
+	background-size: 100% 25em; 
+}
+
+/* second div styles */
+
+div.advert-secondDiv-container {
+	background-color: #106AA8;
+	padding: 2em;
+}
+
+div.advert-secondDiv {
+	background-color: #106AA8;
+	width: 60%;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 150%;
+}
+
+div.advert-secondDiv a {
+	color: white;
+	font-size: 80%;
+	display: block;
+	width: 60%;
+	margin: 2em auto;
+	padding: 0.75em;
+	background-color: rgb(51, 136, 200);
+}
+
+div.advert-secondDiv a:hover {
+	background-color: white;
+	color: rgb(51, 136, 200);
+}
+
+/* third div styles */
+
+div.advert-thirdDiv {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	text-align: center;
+	font-size: 150%;
+}
+
+div.advert-thirdDiv .thirdDiv-col {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;	
+	vertical-align: top;
+}
+
+div.advert-thirdDiv .thirdDiv-col p.faIcon {
+	font-size: 250%;
+	margin-bottom: 0.2em;
+	color: blue;
+}
+
+div.advert-thirdDiv .thirdDiv-col h1 {
+	color: #106AA8;
+}
+
+div.advert-thirdDiv > p {
+	font-style: italic;
+	font-size: 70%;
+	color: #B1B1B1;
+	padding-top: 4em;
+}
+/* styles for fourth div */ 
+
+div.advert-fourthDiv-container {
+	text-align: center;
+	font-size: 150%;
+	background-color: #EFF0F1;
+	padding-top: 2em;
+}
+
+div.advert-fourthDiv-container h1 {
+	font-size: 300%;
+	color: #333333;
+}
+
+div.advert-fourthDiv-container p {
+	padding: 2em 15em 2em 15em;
+	color: #333333;
+	line-height: 1.75em;
+}
+
+div.advert-fourthDiv-container table {
+	margin: 0 auto;
+	width: 90%;
+	border-collapse: separate;
+	border-spacing: 1em;
+	text-align: center;
+}
+
+div.advert-fourthDiv-container table #global {
+	background-image: url('../images/global.jpg');
+}
+
+div.advert-fourthDiv-container table #leadership {
+	background-image: url('../images/leadership.jpg');
+}
+
+div.advert-fourthDiv-container table #local {
+	background-image: url('../images/local-pic.jpg');
+}
+
+div.advert-fourthDiv-container table #international {
+	background-image: url('../images/international-pic.jpg');
+}
+
+div.advert-fourthDiv-container table tr td {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 10em;
+	width: 10em;
+	color: white;
+	font-size: 150%;
+}
+
+ /* styles for fifth div */
+ 
+ div.advert-fifthDiv {
+	background-color: #106AA8;
+	padding: 4em 10em 4em 10em;
+	text-align: center;
+ }
+	
+div.advert-fifthDiv h1 {
+	color: white;
+	line-height: 1.5em;
+}
+
+div.advert-fifthDiv a {
+	color: white;
+	font-size: 120%;
+	display: block;
+	width: 30%;
+	margin: 2em auto;
+	padding: 0.75em;
+	background-color: rgb(51, 136, 200);
+}
+
+div.advert-fifthDiv a:hover {
+	background-color: white;
+	color: rgb(51, 136, 200);
+}
